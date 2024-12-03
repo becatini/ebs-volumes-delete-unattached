@@ -120,6 +120,6 @@ do
 done < "$VOLUMES_CSV_FORMATED"
 
 # Amount in Gigs saved
-VOLUME_GIG=$(awk -F',' '{sum += $4} END {print sum}' "deleted_volumes_${CURRENT_DATE}.txt")
+# VOLUME_GIG=$(awk -F',' '{sum += $4} END {print sum}' "deleted_volumes_${CURRENT_DATE}.txt")
 # Total volumes deleted
-VOLUME_COUNT=$(wc -l < "deleted_volumes_${CURRENT_DATE}.txt")
+# VOLUME_COUNT=$(wc -l < "deleted_volumes_${CURRENT_DATE}.txt")
